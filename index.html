@@ -5,7 +5,7 @@
     <!-- Метатег верификации всегда должен быть в самом верху <head> -->
     <meta name="google-site-verification" content="gNpBRnOKzMMmA19VCaVEROSM4gB-wO5dLGJhV7kykUI" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>GreyGym — Cognitive Training Application</title>
+    <title>Gray-GYM — Cognitive Training Application</title>
     <style>
         body { 
             font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
@@ -23,7 +23,8 @@
         .section { margin-bottom: 40px; padding: 20px; border-radius: 12px; background: #f8f9fa; }
         .section h2 { color: #202124; margin-top: 0; }
         
-        .data-usage { border-left: 5px solid #1a73e8; background: #e8f0fe; }
+        .purpose-box { background: #e8f0fe; border-left: 5px solid #1a73e8; padding: 20px; margin-bottom: 30px; }
+        .data-usage { border-left: 5px solid #34a853; background: #e6f4ea; }
         
         .links { 
             display: grid; 
@@ -53,41 +54,48 @@
 <body>
 
 <header>
-    <h1>GreyGym</h1>
+    <h1>Gray-GYM</h1>
     <p class="tagline">Your personal mental fitness gym</p>
 </header>
 
+<!-- СЕКЦИЯ ДЛЯ ВЕРИФИКАЦИИ GOOGLE: ЯВНОЕ ОПИСАНИЕ ЦЕЛИ -->
+<div class="purpose-box">
+    <h2>Core Purpose of the Application</h2>
+    <p><strong>Gray-GYM</strong> is a specialized cognitive health platform designed to help users maintain and improve their mental agility. The application's primary goal is to provide a comprehensive environment for memory training, attention development, and logical thinking through interactive, evidence-based neuro-games.</p>
+</div>
+
 <div class="section">
-    <h2>About the App</h2>
-    <p>GreyGym is a mobile application designed to improve cognitive abilities, memory, and focus. We provide scientifically-backed brain training exercises through engaging gameplay mechanics.</p>
+    <h2>Functionality & Features</h2>
+    <p>Gray-GYM offers a suite of tools for cognitive self-improvement, allowing users to track their progress and compete in global mental challenges:</p>
     <ul>
-        <li><strong>Stroop Test:</strong> Enhances cognitive flexibility and reaction speed.</li>
-        <li><strong>Schulte Tables:</strong> Improves peripheral vision and visual search skills.</li>
-        <li><strong>Memory Sequences:</strong> Strengthens short-term and working memory.</li>
-        <li><strong>Word Games:</strong> Boosts vocabulary and mental processing.</li>
+        <li><strong>Stroop Test:</strong> Training cognitive flexibility and interference control.</li>
+        <li><strong>Schulte Tables:</strong> Developing speed reading and peripheral visual attention.</li>
+        <li><strong>Memory Sequences:</strong> Exercises for strengthening short-term working memory.</li>
+        <li><strong>Word Games:</strong> Verbal logic and vocabulary expansion tasks.</li>
+        <li><strong>Global Leaderboards:</strong> Real-time competitive ranking with players worldwide.</li>
     </ul>
 </div>
 
 <div class="section data-usage">
     <h2>User Data & Transparency</h2>
-    <p>To provide a seamless experience, GreyGym requests access to certain user information:</p>
+    <p>To ensure data integrity and a seamless user experience, Gray-GYM requests specific data for the following purposes:</p>
     <ul>
-        <li><strong>Google Authentication:</strong> We use your Google account to securely sign you in and protect your profile.</li>
-        <li><strong>Progress Sync:</strong> We store your game scores and achievements in the cloud so you can access your progress on any device.</li>
-        <li><strong>Phone Authentication (OTP):</strong> Used exclusively to verify your identity and link your game data to a secure account.</li>
+        <li><strong>Google OAuth Identity:</strong> We use your Google profile only to uniquely identify your game account and protect your personal records from unauthorized access.</li>
+        <li><strong>Cloud Synchronization:</strong> Your scores, unlocked levels, and training statistics are stored securely in the cloud to allow you to resume your progress on any mobile device.</li>
+        <li><strong>Phone Authentication (OTP):</strong> This provides an additional layer of security to verify account ownership and prevent data loss.</li>
     </ul>
-    <p><em>We do not share your personal information with third parties for marketing or advertising purposes.</em></p>
+    <p><em>Transparency Note: We do not access your contacts, files, or any personal data not directly related to game progress. We never share your data with third-party advertisers.</em></p>
 </div>
 
 <div class="links">
-    <!-- ВНИМАНИЕ: Убедитесь, что файлы называются именно так, либо исправьте ссылки ниже -->
+    <!-- Ссылки должны соответствовать именам файлов в вашем репозитории -->
     <a href="privacy-policy.html">Privacy Policy</a>
     <a href="terms.html">Terms & Conditions</a>
     <a href="account-deletion.html">Data Deletion Instructions</a>
 </div>
 
 <footer>
-    <p>Support: <a href="mailto:ptrinkinet@gmail.com">ptrinkinet@gmail.com</a></p>
+    <p>Developer Contact: <a href="mailto:ptrinkinet@gmail.com">ptrinkinet@gmail.com</a></p>
     <p>© 2026 Trinchinet Petru. All rights reserved.</p>
 </footer>
 
